@@ -1,15 +1,7 @@
 ## Title
 first-person real‑time ray-traced room scene with interactive controls.
 
----
-
-## Personal Information: 
-- Full Name: Ruili Xu
-- UtorID: xuruili
-- student number: 1008946063
-- Assignment number you augmented: A3(raytracing), A5(mesh)
-
----
+<video src="piece.mp4" width="320" height="240" controls></video>
 
 ## Instructions: 
 ```
@@ -17,8 +9,6 @@ cmake -B build-parallel/ -DCMAKE_BUILD_TYPE=Release
 cd build-parallel
 ./raytracing
 ```
-
----
 
 ## Description
 Made a real‑time ray-traced room scene with interactive controls.
