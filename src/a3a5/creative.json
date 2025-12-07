@@ -1,0 +1,144 @@
+{
+  "camera": {
+    "type": "perspective",
+    "focal_length": 3,
+    "eye": [
+      0,
+      0,
+      5
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "look": [
+      0,
+      0,
+      -1
+    ],
+    "height": 1,
+    "width": 1.7777777778
+  },
+  "materials": [
+    {
+      "name": "orange plastic",
+      "ka": [
+        1,
+        0.7,
+        0.2
+      ],
+      "kd": [
+        1,
+        0.7,
+        0.2
+      ],
+      "ks": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "km": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "phong_exponent": 1000
+    },
+    {
+      "name": "blue metal",
+      "ka": [
+        0.215686,
+        0.494118,
+        0.721569
+      ],
+      "kd": [
+        0.215686,
+        0.494118,
+        0.721569
+      ],
+      "ks": [
+        0.215686,
+        0.494118,
+        0.721569
+      ],
+      "km": [
+        0.215686,
+        0.494118,
+        0.721569
+      ],
+      "phong_exponent": 2000
+    }
+  ],
+  "lights": [
+    {
+      "type": "directional",
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "color": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "type": "directional",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "color": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "type": "sphere",
+      "material": "blue metal",
+      "radius": 10,
+      "center": [
+        0,
+        2,
+        -5
+      ]
+    },
+    {
+      "type": "sphere",
+      "material": "blue metal",
+      "radius": 0.5,
+      "center": [
+        -0.5,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "triangle",
+      "corners": [
+        [
+          0.5,
+          -0.5,
+          0
+        ],
+        [
+          0.5,
+          0.5,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "material": "orange plastic"
+    }
+  ]
+}

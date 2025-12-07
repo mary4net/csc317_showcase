@@ -1,0 +1,11 @@
+#include "PointLight.h"
+#include <cmath>
+
+void PointLight::direction(
+  const Eigen::Vector3d & q, Eigen::Vector3d & d, double & max_t) const
+{
+  ////////////////////////////////////////////////////////////////////////////
+  d = this->p-q;
+  max_t = sqrt(d.x()*d.x()+d.y()*d.y()+d.z()*d.z());
+  ////////////////////////////////////////////////////////////////////////////
+}
