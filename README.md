@@ -1,7 +1,9 @@
 ## Title
 first-person real‑time ray-traced room scene with interactive controls.
 
-## Video
+## Video 
+
+(click and download to view the complete version)
 
 [![Demo](demo.gif)](https://github.com/mary4net/csc317_showcase/raw/main/piece.mp4)
 
